@@ -1,0 +1,764 @@
+.div1{
+    position: relative;
+}
+.img1{
+    width: 188px;
+    height: 81px;
+    margin: 5px 55px 3px 0;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 207px;
+}
+.container{
+    position: relative;
+    margin-left: auto;
+    top: 82px;
+    left: 881px;
+    margin-right: auto;
+}
+h1{
+    color: rgb(75, 174, 232);
+    text-indent: 2em;
+    text-align: center;
+    position: relative;
+    top: -293px;
+    left: 35px;
+}
+span{
+    position: relative;
+    top: 219px;
+    left: 63px;
+    color: rgb(127, 211, 211);
+    font-weight: 200;
+    font-family: cursive;
+    font-size: 23px;
+    z-index: 100;
+}
+.span-1{
+    position: relative;
+    left: 53px;
+}
+h3{
+    position: relative;
+    top: 218px;
+    left: 45px;
+    color: rgb(127, 211, 211);
+    font-weight: 900;
+    font-size: 32px;
+    font-family: cursive;
+    z-index: 100;
+}
+.h3-1{
+    position: relative;
+    top: 218px;
+    left: 59px;
+    font-weight: 900;
+}
+.h3-2{
+    position: relative;
+    left: 22px;
+    font-weight: 900;
+}
+.h3-3{
+    font-weight: 900;
+}
+.h3-4{
+    color: black;
+    position: relative;
+    left: 308px;
+    top: 585px;
+    font-size: 20px;
+}
+.h3-5{
+    color: black;
+    position: relative;
+    left: 622px;
+    top: 372px;
+    font-size: 20px;
+}
+.h3-6{
+    color: black;
+    position: relative;
+    left: 903px;
+    top: 136px;
+    font-size: 20px;
+}
+.h3-7{
+    color: black;
+    position: relative;
+    left: 1181px;
+    top: -80px;
+    font-size: 20px;
+}
+.h3-8{
+    position: relative;
+    top: 204px;
+    left: 138px;
+    line-height: 2;
+    font-size: 50px;
+    color: mediumblue;
+}
+.h3-9{
+    position: relative;
+    top: 0px;
+    left: 504px;
+    line-height: 2;
+    font-size: 20px;
+    color: mediumblue;
+}
+ul.slides{
+    position: relative;
+    top: -357px;
+    left: 58px;
+    width: 1423.8px;
+    height: 1018px;
+    margin: 354px 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+li.slide{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 5px;
+    left: -46px;
+    transition: .5s ease-in-out;
+    list-style: none;
+}
+.slide:nth-of-type(1){
+    background-image: url(img/網站-4-1-2.png);
+}
+.slide:nth-of-type(2){
+    background-image: url(img/網站-1.png);
+    left: 100%;
+}
+.slide:nth-of-type(3){
+    background-image: url(img/網站-3.png);
+    left: 200%;
+}
+input[type="radio"]{
+    position: relative;
+    z-index: 100;
+    
+}
+.controls-visible{
+    position: absolute;
+    width: 100%;
+    bottom:12px;
+    text-align: center;
+}
+.controls-visible label{
+    display: inline-block;  
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 3px;
+    border: 2.5px solid #0808ea;
+}
+.slides input[type="radio"]:nth-of-type(1):checked ~
+.controls-visible label:nth-of-type(1){
+    background-color: #0808ea;
+}
+.slides input[type="radio"]:nth-of-type(2):checked ~
+.controls-visible label:nth-of-type(2){
+    background-color: #0808ea;
+}
+.slides input[type="radio"]:nth-of-type(3):checked ~
+.controls-visible label:nth-of-type(3){
+    background-color: #0808ea;
+}
+.slides input[type="radio"]:nth-of-type(1):checked ~ .slide{
+    transform: translateX(0%);
+}
+.slides input[type="radio"]:nth-of-type(2):checked ~ .slide{
+    transform: translateX(-100%);
+}
+.slides input[type="radio"]:nth-of-type(3):checked ~ .slide{
+    transform: translateX(-200%);
+}
+ul.slides2{
+    position: relative;
+    top: -452px;
+    left: -267px;
+    width: 250.79999999999995px;
+    height: 295px;
+    margin: 119px 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+li.slide2{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 5px;
+    left: 50px;
+    transition: .5s ease-in-out;
+    list-style: none;
+}
+.slide2:nth-of-type(1){
+    background-image: url(img/珍珠奶茶.png);
+    background-repeat: no-repeat;
+    left: 0%;
+}
+.slide2:nth-of-type(2){
+    background-image: url(img/四季春珍波椰.png);
+    background-repeat: no-repeat;    
+    left: 100%;
+}
+.slide2:nth-of-type(3){
+    background-image: url(img/蜂蜜綠茶-removebg-preview\ \(1\).png);
+    background-repeat: no-repeat;
+    left: 200%;
+}
+.slide2:nth-of-type(4){
+    background-image: url(img/芒果氣泡飲-removebg-preview.png);
+    background-repeat: no-repeat;
+    left: 300%;
+}
+.slide2:nth-of-type(5){
+    background-image: url(img/桂花拿鐵-removebg-preview.png);
+    background-repeat: no-repeat;
+    left: 400%;
+}
+.slide2:nth-of-type(6){
+    background-image: url(img/桂花茶-removebg-preview.png);
+    background-repeat: no-repeat;
+    left: 500%;
+}
+input[type="radio"]{
+    position: relative;
+    z-index: 100;
+    display: none;
+}
+.controls-visible2{
+    position: absolute;
+    width: 100%;
+    bottom: -29px;
+    text-align: center;
+}
+.controls-visible2 label{
+    display: inline-block;  
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 3px;
+    border: 2.5px solid #21e7d6;
+}
+.slides2 input[type="radio"]:nth-of-type(1):checked ~
+.controls-visible2 label:nth-of-type(1){
+    background-color: #21e7d6;
+}
+.slides2 input[type="radio"]:nth-of-type(2):checked ~
+.controls-visible2 label:nth-of-type(2){
+    background-color: #21e7d6;
+}
+.slides2 input[type="radio"]:nth-of-type(3):checked ~
+.controls-visible2 label:nth-of-type(3){
+    background-color: #21e7d6;
+}
+.slides2 input[type="radio"]:nth-of-type(4):checked ~
+.controls-visible2 label:nth-of-type(4){
+    background-color: #21e7d6;
+}
+.slides2 input[type="radio"]:nth-of-type(5):checked ~
+.controls-visible2 label:nth-of-type(5){
+    background-color: #21e7d6;
+}
+.slides2 input[type="radio"]:nth-of-type(6):checked ~
+.controls-visible2 label:nth-of-type(6){
+    background-color: #21e7d6;
+}
+.slides2 input[type="radio"]:nth-of-type(1):checked ~ .slide2{
+    transform: translateX(0%);
+}
+.slides2 input[type="radio"]:nth-of-type(2):checked ~ .slide2{
+    transform: translateX(-100%);
+}
+.slides2 input[type="radio"]:nth-of-type(3):checked ~ .slide2{
+    transform: translateX(-200%);
+}
+.slides2 input[type="radio"]:nth-of-type(4):checked ~ .slide2{
+    transform: translateX(-300%);
+}
+.slides2 input[type="radio"]:nth-of-type(5):checked ~ .slide2{
+    transform: translateX(-400%);
+}
+.slides2 input[type="radio"]:nth-of-type(6):checked ~ .slide2{
+    transform: translateX(-500%);
+}
+.hr-1{
+    width: 176px;
+    border: 2px solid red;
+    position: relative;
+    top: 573px;
+    left: 302px;
+}
+.hr-2{
+    width: 176px;
+    border: 2px solid red;
+    position: relative;
+    top: 358px;
+    left: 602px;
+}
+.hr-3{
+    width: 176px;
+    border: 2px solid red;
+    position: relative;
+    top: 122px;
+    left: 886px;
+}
+.hr-4{
+    width: 176px;
+    border: 2px solid red;
+    position: relative;
+    top: -92px;
+    left: 1179px;
+}
+.hr-5{
+    width: 0px;
+    height: 142px;
+    vertical-align: super;
+    border: 2px solid rgb(167, 93, 221);
+    position: relative;
+    top: 391px;
+    left: -52px;
+}
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -82px;
+    left: 881px;
+}
+.img2{
+    width: 111px;
+    height: 107px;
+    position: relative;
+    top: 573px;
+    left: 336px;
+}
+.img3{
+    width: 111px;
+    height: 107px;
+    position: relative;
+    top: 357px;
+    left: 627px;
+}
+.img4{
+    width: 111px;
+    height: 107px;
+    position: relative;
+    top: 124px;
+    left: 919px;
+}
+.img5{  
+    Width: 111px;
+    height: 107px;
+    position: relative;
+    top: -99px;
+    left: 1209px;
+}
+.section-1{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-2{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 100px;
+}
+.section-3{
+    background-image: url(img/端飲料.jpg);
+    background-size: 100%;
+    height: 611px;
+    position: relative;
+    top: -300px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+    margin-top: 80px;
+}
+.section-4{
+    position: absolute;
+    left: 100px;
+    top: 1228px;
+}
+.section-5{
+    background-image: url(img/背景.jpg);
+    width: 100%;
+    height: 611px;
+    position: absolute;
+    top: 2228px;
+    left: 2px;
+}
+.section-6{
+    position: absolute;
+    left: 517px;
+    top: 2085px;
+}
+.container-2{
+    opacity: 1;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 200;
+    text-align: center;
+}
+.container-3{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 130px;
+    color: #0808ea;
+}
+.fase{
+    display: none;
+}
+.h2-1{
+    position: relative;
+    top: 580px;
+    left: 323px;
+    font-family: cursive;
+}
+.h2-2{
+    position: relative;
+    top: 367px;
+    left: 621px;
+    font-family: cursive;
+}
+.h2-3{
+    position: relative;
+    top: 129px;
+    left: 911px;
+    font-family: cursive;
+}
+.h2-4{
+    position: relative;
+    top: -88px;
+    left: 1207px;
+    font-family: cursive;
+}
+.button{
+    border-radius: 50%;
+    line-height: 3;
+    width: 129px;
+    height: 52px;
+    position: relative;
+    left: 504px;
+    top: 40px;
+    background-color: darkseagreen;
+    border: none;
+}
+.button-2{
+    border: none;
+}
+.frame-2{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width:814px){
+    .section-3{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .section-5{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .h3-8{
+        position: relative;
+        top: 45px;
+        left: -212px;
+        line-height: 2;
+        font-size: 50px;
+        color: mediumblue;
+    }
+    .hr-5{
+        width: 0px;
+        height: 142px;
+        vertical-align: super;
+        border: 2px solid rgb(167, 93, 221);
+        position: relative;
+        top: 240px;
+        left: -399px;
+    }
+        .h3-9{
+        position: relative;
+        top: -269px;
+        left: 146px;
+        line-height: 2;
+        font-size: 20px;
+        color: mediumblue;
+    }
+    .button{
+        border-radius: 50%;
+        line-height: 3;
+        width: 129px;
+        height: 52px;
+        position: relative;
+        left: 145px;
+        top: -200px;
+        background-color: darkseagreen;
+        border: none;
+    }
+}
+@media only screen and (max-width:1509px){
+    .container{
+        position: relative;
+        left: 714px;
+        top: -75px;
+    }
+    .section-3{
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .section-5{
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+@media only screen and (max-width:1269px){
+    ul.slides{
+        position: relative;
+        top: -357px;
+        left: -146px;
+        width: 1423.8px;
+        height: 1018px;
+        margin: 354px 0 0 0;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+    }
+    .section-3{
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .section-5{
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+@media only screen and (max-width:998px){
+    .container{
+        position: relative;
+        left: 520px;
+    }
+    .section-3{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .section-5{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+}
+@media only screen and (max-width:991px){
+    .section-2{
+        position: relative;
+        left: 399px;
+    }
+    .section-3{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .section-5{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+}
+@media only screen and (max-width:830px){
+    .container{
+        position: relative;
+        left: 546px;
+    }
+    .container-2{
+        position: relative;
+        right: 340px
+    }
+    .section-3{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .section-5{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+}
+@media only screen and (max-width:818px){
+    .section-5{
+        position: absolute;
+        top: 2075px;
+    }
+    .section-3{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .section-5{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+}
+@media only screen and (max-width:812px){
+    .section-3{
+        width: 100%;
+    }
+    .section-3{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .section-5{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+}
+@media only screen and (max-width:786px){
+    .hr-5{
+        position: relative;
+        left: -321px;
+    }
+    .section-3{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .section-5{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+}
+@media only screen and (max-width:695px){
+    .frame{
+        position: relative;
+        left: -126px;
+        top: 298px;
+    }
+    .h3-8{
+        font-size: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .h3-9{
+        font-size: 20px;
+    }
+    .section-3{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .section-5{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .frame-2{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        top: 262px;
+    }
+}
+@media only screen and (max-width:584px){
+    .section-5{
+        position: absolute;
+        top: 2056px;
+    }
+    .section-3{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .section-5{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .frame-2{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        top: 262px;
+    }
+}
+@media only screen and (max-width:554px){
+    .section-5{
+        position: absolute;
+        top: 2034px;
+    }
+    .section-3{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .section-5{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .frame-2{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        top: 262px;
+    }
+}
+@media only screen and (max-width:500px){
+    .section-5{
+        position: absolute;
+        top: 2507px;
+    }
+    .section-3{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .section-5{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+        height: 100%;
+    }
+    .frame-2{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        top: 262px;
+    }
+}
+@media only screen and (max-width:300px){
+    .section-3{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .section-5{
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 2428px;
+    }
+    .frame-2{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        top: 262px;
+    }
+}

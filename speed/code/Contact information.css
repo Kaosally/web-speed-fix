@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(188, 188, 212);
+}
+.h2-1{
+    display: none;
+}
+.h2-2{
+    font-size: 50px;
+    position: relative;
+    margin-right: auto;
+    margin-left:auto;
+}
+.h2-3{
+    font-size: 30px;
+}
+.h2-3,h3{
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(124, 71, 173);
+}
+h3{
+    margin-left: auto;
+    margin-top: 30px;
+    color: rgb(124, 71, 173);
+}
+.section-1{
+    background-image: url(../img/問號.jpg);
+    background-size: 100%;
+    height: 351px;
+    position: relative;
+    opacity: 0.5;
+}
+.section-2{
+    position: relative;
+    top: -255px;
+    left: -2px;
+    text-align: center;
+}
+i{
+    margin-right: 5px;
+}
+ul li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgb(156, 12, 137);
+}
+.container{
+    margin-top: 15%;
+}
+@media only screen and (max-width: 1031px){
+    .section-1{
+        background-image: url(../img/問號.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+@media only screen and (max-width: 800px){
+    .h2-2{
+        font-size: 50px;
+        position: relative;
+        top: -50px;
+        margin-right: auto;
+        margin-left:auto;
+    }
+}
+@media only screen and (max-width: 475px){
+    .h2-2{
+        font-size: 50px;
+        position: relative;
+        top: -150px;
+        margin-right: auto;
+        margin-left:auto;
+    }
+}

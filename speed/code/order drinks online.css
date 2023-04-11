@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(188, 188, 212);
+}
+.h2-1{
+    display: none;
+}
+.h2-2{
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h4{
+    text-align: center;
+}
+.section-1{
+    background-image: url(../img/點餐.jpg);
+    background-size: 100%;
+    height: 311px;
+    position: relative;
+    opacity: 0.5;
+}
+.section-2{
+    position: relative;
+    top: -213px;
+    left: -24px;
+}
+.section-3{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.tea{
+    width: 228px;
+    height: 282px;
+}
+div{
+    margin-left: auto;
+    margin-right: auto;
+}
+form{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+input[type=number]{
+    position: relative;
+    left: 85px;
+}
+input[class=input-1]{
+    position: relative;
+    left: -1px;
+    top: 5px;
+}
+input[class=input-5]{
+    position: relative;
+    left: 80px;
+    top: 15px;
+}
+input[type=sumnit],input[type=reset]{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgb(156, 12, 137);
+}
+.container{
+    position: relative;
+}
+table{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (max-width:890px){
+    .section-1{
+        background-repeat: no-repeat;
+    }
+}
+@media only screen and (max-width:608px){
+    .h2-2{
+        position: relative;
+        top: -50px;
+    }
+}
+@media only screen and (max-width:444px){
+    .h2-2{
+        position: relative;
+        top: -120px;
+    }
+}
+@media only screen and (max-width:808px){
+    th{
+        width: 20%;
+        height: 20%;
+    }
+    td{
+        width: 20%;
+        height: 20%;
+    }
+    .img-3{
+        width: 100%;
+        height: 100%;
+    }
+    .tea{
+        width: 100%;
+        height: 150%;
+    }
+    .img-4{
+        width: 80%;
+        height: 80%;
+        position: relative;
+        left: 10%;
+    }
+    .img-5{
+        width: 88%;
+        height: 90%;
+    }
+    input[type=number]{
+        position: relative;
+        left: 10%;
+    }
+}

@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(188, 188, 212);
+}
+.h2-1{
+    display: none;
+}
+.h2-2{
+    font-size: 50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.section-1{
+    background-image: url(../img/水果飲品.jpg);
+    background-size: 100%;
+    height: 311px;
+    position: relative;
+    opacity: 0.5;
+}
+.section-2{
+    position: relative;
+    top: -275px;
+    left: -3px;
+}
+.section-3{
+    position: relative;
+    top: -134px;
+}
+img{
+    margin-top: 49px;
+    width: 100%;
+}
+ul li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgb(156, 12, 137);
+}
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -212px;
+}
+@media only screen and (max-width:614px){
+    .section-1{
+        background-repeat: no-repeat;
+    }
+}
+@media only screen and (max-width:319px){
+    .h2-2{
+        position: relative;
+        top: -50px;
+    }
+}
+@media only screen and (max-width:582px){
+    img{
+        position: relative;
+        top: -42px;
+    }
+}
+@media only screen and (max-width:444px){
+    img{
+        position: relative;
+        top: -102px;
+    }
+}
+@media only screen and (max-width:150px){
+    img{
+        position: relative;
+        top: -280px;
+    }
+    .container{
+        position: relative;
+        top: -243px;
+    }
+}

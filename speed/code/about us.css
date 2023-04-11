@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(188, 188, 212);
+}
+.h2-1{
+    display: none;
+}
+.h2-2{
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+}
+.h2-3{
+    font-size: 40px;
+    color: #ba5ecd;
+    margin: auto;
+    padding: 5px;
+}
+.h2-4{
+    font-size: 28px;
+    margin: auto;
+    padding: 5px;
+}
+.h2-5{
+    font-size: 40px;
+    color: #ba5ecd;
+    font-weight: 900;
+    margin: auto;
+    padding: 5px;
+}
+.h2-6{
+    font-size: 28px;
+    margin: auto;
+    padding: 5px;
+}
+.section-1{
+    background-image: url(../img/端飲料.jpg);
+    background-size: 100%;
+    height: 311px;
+    position: relative;
+    opacity: 0.5;
+}
+.section-2{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: -200px;
+    left: 4px;
+}
+.section-3{
+    background-image: url(../img/珍奶背景.jpg);
+    background-size: 100%;
+    height: 509px;
+    opacity: 0.8;
+    margin-top: -412px;
+    position: relative;
+    top: 99px;
+}
+.section-4{
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+    z-index: 200;
+
+}
+ul li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: rgb(156, 12, 137);
+}
+.container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@media only screen and (max-width: 503px){
+    .section-1{
+        background-repeat: no-repeat;
+    }
+    .section-3{
+        background-repeat: no-repeat;
+        position: relative;
+        top: -80px;
+    }
+}
